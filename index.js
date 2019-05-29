@@ -1,3 +1,2 @@
-window.alert("hello");
-
-var myTable = document.getElementById("myTable").deleteTHead();
+var myTable = document.getElementById("myTable");
+myTable.deleteTHead();
