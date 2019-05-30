@@ -31,14 +31,12 @@ body {
 
 table {
   border-radius: 30px;
-  border-style: groove;
   width: 700px;
   height: 500px;
 }
 
 td {
   border-radius: 30px;
-  border: 2px solid black;
   height: 20px;
   width: 15px;
   background-color: blueviolet;
