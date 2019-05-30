@@ -32,7 +32,6 @@ body {
 table {
   border-radius: 30px;
   border-style: groove;
-  border: 1px solid black;
   width: 700px;
   height: 500px;
 }
@@ -71,6 +70,7 @@ h4 {
   left: 70px;
   bottom: 40px;
 }
+
 
 #myTable {
   position: relative;
