@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css?family=Crete+Round|Quicksand|Raleway|Saira+Extra+Condensed|Tajawal&display=swap");
 
 body {
@@ -49,17 +50,17 @@ h4 {
 }
 
 #kgOutPut {
-  color: rgb(219, 219, 219);
+  color: rgb(255, 0, 0);
   font-family: Raleway, sans-serif;
 }
 
 #tonneOutPut {
-  color: rgb(219, 219, 219);
+  color: rgb(51, 179, 12);
   font-family: Raleway, sans-serif;
 }
 
 #mgOutPut {
-  color: rgb(219, 219, 219);
+  color: rgb(17, 0, 255);
   font-family: Raleway, sans-serif;
 }
 
