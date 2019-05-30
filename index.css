@@ -73,6 +73,7 @@ h4 {
 #tonneOutPut {
   color: rgb(51, 179, 12);
   font-family: Raleway, sans-serif;
+  border-right-width: medium;
 }
 
 #mgOutPut {
