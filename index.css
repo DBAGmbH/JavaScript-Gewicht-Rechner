@@ -27,7 +27,8 @@ body {
 }
 
 #list {
-  left: 50%;
+  left: 25%;
+  right:25%;
 }
 
 table {
@@ -37,7 +38,7 @@ table {
 }
 
 #td1 {
-  height: 10px;
+  height: 18px;
   width: 15px;
   background-color: rgb(141, 141, 141);
 }
