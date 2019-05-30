@@ -49,8 +49,7 @@ table {
 }
 
 #td3 {
-  height: 18px;
-  width: 15px;
+
   background-color: rgb(43, 255, 0);
 }
 
@@ -73,6 +72,7 @@ h4 {
 #tonneOutPut {
   color: rgb(51, 179, 12);
   font-family: Raleway, sans-serif;
+  line-height: 50%
 }
 
 #mgOutPut {
