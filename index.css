@@ -27,8 +27,7 @@ body {
 }
 
 #list {
-  left: 25%;
-  right:25%;
+  left: 50%;
 }
 
 table {
@@ -47,6 +46,7 @@ table {
   height: 18px;
   width: 15px;
   background-color: rgb(255, 0, 0);
+  box-align: center;
 }
 
 #td3 {
