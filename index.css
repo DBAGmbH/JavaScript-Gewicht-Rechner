@@ -40,28 +40,28 @@ table {
   height: 18px;
   width: 15px;
   background-color: rgb(141, 141, 141);
-  align-content: center;
+  text-align: center;
 }
 
 #td2 {
   height: 18px;
   width: 15px;
   background-color: rgb(255, 0, 0);
-  align-content: center;
+  text-align: center;
 }
 
 #td3 {
   height: 18px;
   width: 15px;
   background-color: rgb(43, 255, 0);
-  align-content: center;
+  text-align: center;
 }
 
 #td4 {
   height: 18px;
   width: 15px;
   background-color: rgb(17, 0, 255);
-  align-content: center;
+  text-align: center;
 }
 
 h4 {
