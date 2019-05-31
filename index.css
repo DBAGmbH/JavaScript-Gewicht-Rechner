@@ -44,25 +44,24 @@ td {
   height: 18px;
   width: 15px;
   background-color: rgb(141, 141, 141);
-  right: 25px;
 }
 
 #td2 {
   height: 18px;
   width: 15px;
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(218, 47, 47);
 }
 
 #td3 {
   height: 18px;
   width: 15px;
-  background-color: rgb(43, 255, 0);
+  background-color: rgb(54, 148, 35);
 }
 
 #td4 {
   height: 18px;
   width: 15px;
-  background-color: rgb(17, 0, 255);
+  background-color: rgb(34, 29, 110);
 }
 
 h4 {
