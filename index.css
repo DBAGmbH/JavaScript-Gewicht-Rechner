@@ -36,6 +36,10 @@ table {
   height: 500px;
 }
 
+td{
+  border-radius: 1px;
+}
+
 #td1 {
   height: 18px;
   width: 15px;
