@@ -23,7 +23,7 @@ body {
   height: 15px;
   text-align: center;
   position: relative;
-  left: 40.5%;
+  left: 20%;
 }
 
 #list {
@@ -31,37 +31,31 @@ body {
 }
 
 table {
-  border-radius: 15px;
+  border-radius: 30px;
   width: 700px;
   height: 500px;
 }
 
 td {
+  width: 100%;
   border-radius: 5px;
 }
 
 #td1 {
-  height: 18px;
-  width: 15px;
   background-color: rgb(141, 141, 141);
-  margin-right: 500px;
+  margin-top: 20%;
+  margin-bottom: 70%;
 }
 
 #td2 {
-  height: 18px;
-  width: 15px;
   background-color: rgb(218, 47, 47);
 }
 
 #td3 {
-  height: 18px;
-  width: 15px;
   background-color: rgb(54, 148, 35);
 }
 
 #td4 {
-  height: 18px;
-  width: 15px;
   background-color: rgb(34, 29, 110);
 }
 
@@ -78,6 +72,7 @@ h4 {
 #tonneOutPut {
   color: rgb(51, 179, 12);
   font-family: Raleway, sans-serif;
+  
 }
 
 #mgOutPut {
