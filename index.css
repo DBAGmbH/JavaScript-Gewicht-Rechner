@@ -38,7 +38,7 @@ table {
 
 td{
   border-radius: 2px;
-  height: 10px;
+  border-bottom-right-radius: 6px;
 }
 
 #td1 {
@@ -48,7 +48,7 @@ td{
 }
 
 #td2 {
-
+  height: 18px;
   width: 15px;
   background-color: rgb(255, 0, 0);
 }
