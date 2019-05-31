@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css?family=Crete+Round|Quicksand|Raleway|Saira+Extra+Condensed|Tajawal&display=swap");
 
 body {
@@ -36,7 +35,7 @@ table {
   height: 500px;
 }
 
-td{
+td {
   border-radius: 5px;
 }
 
@@ -84,12 +83,11 @@ h4 {
   font-family: Raleway, sans-serif;
 }
 
-#grammEingabe {
+#grammInput {
   position: relative;
   left: 70px;
   bottom: 40px;
 }
-
 
 #myTable {
   position: relative;
