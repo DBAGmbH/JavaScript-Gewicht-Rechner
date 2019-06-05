@@ -1,3 +1,2 @@
-document.getElementById("grammInput").addEventListener("input", function () {
-  console.log(123);
-});
+var grammInput = document.getElementById("grammInput");
+grammInput.innerHTML("Hello");
