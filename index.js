@@ -1,5 +1,5 @@
 var grammInput = document.getElementById("grammInput");
-grammInput.addEventListener("input", function{
+grammInput.addEventListener("input", function() {
 
 console.log("123")
 
