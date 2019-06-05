@@ -43,8 +43,7 @@ td {
 
 #td1 {
   background-color: rgb(141, 141, 141);
-  margin-top: 20%;
-  margin-bottom: 70%;
+  box-align: center;
 }
 
 #td2 {
