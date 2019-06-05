@@ -1,2 +1,6 @@
 var grammInput = document.getElementById("grammInput");
-grammInput.innerHTML("Hello");  
+grammInput.addEventListener("input", function{
+
+console.log("123")
+
+})
