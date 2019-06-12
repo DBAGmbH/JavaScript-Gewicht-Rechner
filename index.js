@@ -14,7 +14,7 @@ function Rechnen(value) {
 
 }
 
-grammInput.addEventListener("input", Rechnen);
+grammInput.addEventListener("input", Rechnen(grammInput));
 
 
 
