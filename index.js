@@ -13,7 +13,6 @@ function Rechnen(value) {
   tonneOutPut.innerHTML = parseInt(value) / 1000000;
   mgOutPut.innerHTML = parseInt(value) * 1000;
 }
-
 }
 
 grammInput.addEventListener("input", Rechnen(grammInput));
