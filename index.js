@@ -8,9 +8,11 @@ function Rechnen(value) {
     window.alert("Falsche Eingabe Gebe eine Zahl ein")
   }
 
+  else {
   kgOutPut.innerHTML = parseInt(value) / 1000;
   tonneOutPut.innerHTML = parseInt(value) / 1000000;
   mgOutPut.innerHTML = parseInt(value) * 1000;
+}
 
 }
 
