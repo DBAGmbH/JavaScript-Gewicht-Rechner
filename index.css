@@ -84,6 +84,16 @@ h4 {
   font-family: Raleway, sans-serif;
 }
 
+#mikrogrammOutPut {
+  color: rgb(255, 255, 255);
+  font-family: Raleway, sans-serif;
+}
+
+#pfundOutPut {
+  color: rgb(255, 255, 255);
+  font-family: Raleway, sans-serif;
+}
+
 #grammInput {
   position: relative;
   left: 70px;
