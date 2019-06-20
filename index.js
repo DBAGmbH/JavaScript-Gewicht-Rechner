@@ -15,6 +15,5 @@ function buttonClicked() {
     mgOutPut.innerHTML = parseInt(document.grammInput.value * 1000);
     pfundOutPut.innerHTML = parseInt(document.grammInput.value / 453.592);
     mikrogrammOutPut.innerHTML = parseInt(document.grammInput.value * 1000000);
-
   }
 }
