@@ -1,107 +1,130 @@
     @import url("https://fonts.googleapis.com/css?family=Crete+Round|Quicksand|Raleway|Saira+Extra+Condensed|Tajawal&display=swap");
 
-body {
-  background-color: #333;
-  margin: 0px;
-  padding: 0px;
-  width: 100%;
-  height: 100%;
-}
+    body {
+      background-color: #333;
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+      height: 100%;
+    }
 
-#überschrift {
-  font-family: Saira Extra Condensed, sans-serif;
-  color: whitesmoke;
-  text-align: center;
-  margin-top: 3%;
-  margin-bottom: 3px;
-  font-size: 60px;
-  font-weight: lighter;
-}
+    #überschrift {
+      font-family: Saira Extra Condensed, sans-serif;
+      color: whitesmoke;
+      text-align: center;
+      margin-top: 3%;
+      margin-bottom: 3px;
+      font-size: 60px;
+      font-weight: lighter;
+    }
 
-#gInGramm {
-  width: 300px;
-  height: 15px;
-  text-align: center;
-  position: relative;
-  left: 30%;
-}
+    table {
+      border-radius: 30px;
+      width: 700px;
+      height: 500px;
+    }
 
-table {
-  border-radius: 30px;
-  width: 700px;
-  height: 500px;  
-}   
+    td {
+      width: 100%;
+      border-radius: 5px;
+      margin-left: 150px;
+      margin-right: 150px;
+    }
 
-td {
-  width: 100%;
-  border-radius: 5px;
-  margin-left: 150px;
-  margin-right: 150px;
-}
+    #td1 {
+      background-color: rgb(141, 141, 141);
+    }
 
-#td1 {
-  background-color: rgb(141, 141, 141);
-}
+    #td2 {
+      background-color: rgb(218, 47, 47);
+    }
 
-#td2 {
-  background-color: rgb(218, 47, 47);
-}
+    #td3 {
+      background-color: rgb(54, 148, 35);
+    }
 
-#td3 {
-  background-color: rgb(54, 148, 35);
-}
+    #td4 {
+      background-color: rgb(34, 29, 110);
+    }
 
-#td4 {
-  background-color: rgb(34, 29, 110);
-}
+    #td5 {
+      background-color: rgb(201, 204, 24);
+    }
 
-#td5 {
-  background-color: rgb(201, 204, 24);
-}
+    #td6 {
+      background-color: rgb(218, 150, 6);
+    }
 
-#td6 {
-  background-color: rgb(218, 150, 6);
-}
+    h4 {
+      color: white;
+      font-family: Quicksand, sans-serif;
+    }
 
-h4 {
-  color: white;
-  font-family: Quicksand, sans-serif;
-}
+    #kgOutPut {
+      color: rgb(255, 255, 255);
+      font-family: Raleway, sans-serif;
+    }
 
-#kgOutPut {
-  color: rgb(255, 255, 255);
-  font-family: Raleway, sans-serif;
-}
+    #tonneOutPut {
+      color: rgb(255, 255, 255);
+      font-family: Raleway, sans-serif;
 
-#tonneOutPut {
-  color: rgb(255, 255, 255);
-  font-family: Raleway, sans-serif;
-  
-}
+    }
 
-#mgOutPut {
-  color: rgb(255, 255, 255);
-  font-family: Raleway, sans-serif;
-}
+    #mgOutPut {
+      color: rgb(255, 255, 255);
+      font-family: Raleway, sans-serif;
+    }
 
-#mikrogrammOutPut {
-  color: rgb(255, 255, 255);
-  font-family: Raleway, sans-serif;
-}
+    #mikrogrammOutPut {
+      color: rgb(255, 255, 255);
+      font-family: Raleway, sans-serif;
+    }
 
-#pfundOutPut {
-  color: rgb(255, 255, 255);
-  font-family: Raleway, sans-serif;
-}
+    #pfundOutPut {
+      color: rgb(255, 255, 255);
+      font-family: Raleway, sans-serif;
+    }
 
-#grammInput {
-  position: relative;
-  left: 70px;
-  bottom: 40px;
-}
+    #grammInput {
+      position: relative;
+      left: 70px;
+      bottom: 40px;
+      cursor: pointer;
+      border: 2px, 5px;
+      border-color: #333;
+      border-radius: 5px;
+      font-family: Raleway;
+      background-color: #333;
+      color: white;
+    }
 
-#myTable {
-  position: relative;
-  left: 35%;
-}
+    #grammInput:hover {
+      background-color: rgb(80, 80, 80);
+    }
 
+
+    #myTable {
+      position: relative;
+      left: 35%;
+    }
+
+    #rechnenButton {
+      width: 100px;
+      height: 22px;
+      position: relative;
+      bottom: 40px;
+      left: 80px;
+      font-family: Raleway, sans-serif;
+      border: 2px solid black;
+      background-color: white;
+      color: black;
+      cursor: pointer;
+      border-color: rgb(197, 33, 47);
+      color: rgb(197, 33, 47);
+    }
+
+    #rechnenButton:hover {
+      background-color: rgb(226, 41, 57);
+      color: white;
+    }
