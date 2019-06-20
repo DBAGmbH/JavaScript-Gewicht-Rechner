@@ -18,8 +18,18 @@
         <tr>
           <td id="td1">
             <h4>Gramm:</h4>
-            <input type="number" placeholder="Gewicht.." id="grammInput" />
-            <input type="button" placeholder="Rechnen" id="rechnenButton" onclick="Rechnen()"/>
+            <input
+              type="number"
+              placeholder="Gewicht.."
+              id="grammInput"
+              value=""
+            />
+            <input
+              type="button"
+              placeholder="Rechnen"
+              id="rechnenButton"
+              onclick="gInkg(grammInput.value)"
+            />
           </td>
         </tr>
         <tr>

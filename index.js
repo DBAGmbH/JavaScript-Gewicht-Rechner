@@ -1,12 +1,17 @@
-var grammInput = document.getElementById("grammInput");
-var kgOutPut = document.getElementById("kgOutPut");
-var tonneOutPut = document.getElementById("tonneOutPut");
-var mgOutPut = document.getElementById("mgOutPut");
-var pfundOutPut = document.getElementById("pfundOutPut");
-var mikrogrammOutPut = document.getElementById("mikrogrammOutPut");
-  
-  function Rechnen () {
-    parseInt(grammInput / 1000);
+let grammInput = document.getElementById("grammInput");
+let kgOutPut = document.getElementById("kgOutPut");
+let tonneOutPut = document.getElementById("tonneOutPut");
+let mgOutPut = document.getElementById("mgOutPut");
+let pfundOutPut = document.getElementById("pfundOutPut");
+let mikrogrammOutPut = document.getElementById("mikrogrammOutPut");
+let rechnenButton = document.getElementById("rechnenButton");
+
+function gInkg(Zahl) {
+  if (typeof Zahl = Number) {
+    kgOutPut.innerHTML = Zahl / 1000;
+  } else {
+    window.alert("Gib Eine Gültige Zahl ein!")
+  }
 
 
 }
