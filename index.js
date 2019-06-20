@@ -6,12 +6,15 @@ let pfundOutPut = document.getElementById("pfundOutPut");
 let mikrogrammOutPut = document.getElementById("mikrogrammOutPut");
 let rechnenButton = document.getElementById("rechnenButton");
 
-function gInkg(Zahl) {
-  if (typeof Zahl = Number) {
-    kgOutPut.innerHTML = Zahl / 1000;
-  } else {
+function buttonClicked() {
+  if (typeof Zahl != "Number") {
     window.alert("Gib Eine Gültige Zahl ein!")
+  } else {
+    kgOutPut.innerHTML = parseInt(document.grammInput.value / 1000);
+    tonneOutPut.innerHTML = parseInt(document.grammInput.value / 1000000);
+    mgOutPut.innerHTML = parseInt(document.grammInput.value * 1000);
+    pfundOutPut.innerHTML = parseInt(document.grammInput.value / 453.592);
+    mikrogrammOutPut.innerHTML = parseInt(document.grammInput.value * 1000000);
+
   }
-
-
 }
