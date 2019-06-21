@@ -31,7 +31,7 @@
       margin-right: 150px;
     }
 
-     class {
+    class {
       width: 100%;
       border-radius: 5px;
       margin-left: 150px;
@@ -54,11 +54,11 @@
       background-color: rgb(34, 29, 110);
     }
 
-    #td5 {
+    .Pfund1 {
       background-color: rgb(201, 204, 24);
     }
 
-    #td6 {
+    .Mikrogramm1 {
       background-color: rgb(218, 150, 6);
     }
 
