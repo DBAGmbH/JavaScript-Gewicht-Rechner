@@ -19,16 +19,11 @@
           <td id="td1">
             <h4>Gramm:</h4>
             <input
-              type="text"
+              type="number"
               placeholder="Gewicht.."
               id="grammInput"
-              value=""
-            />
-            <input
-              type="button"
-              value="Rechnen"
-              id="rechnenButton"
-              onclick="buttonClicked()"
+              oninput="buttonClicked(this.value)"
+              onchange="buttonClicked(this.value)"
             />
           </td>
         </tr>
