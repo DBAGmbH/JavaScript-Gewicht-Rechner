@@ -110,6 +110,7 @@
       color: white;
       background: linear-gradient(21deg, #10abff, #1beabd);
       border-style: groove;
+      width: 30%
     }
 
     #grammInput:hover {
