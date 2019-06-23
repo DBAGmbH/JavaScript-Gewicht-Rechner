@@ -109,6 +109,7 @@
       background-color: #333;
       color: white;
       background: linear-gradient(21deg, #10abff, #1beabd);
+      border-style: double;
     }
 
     #grammInput:hover {
