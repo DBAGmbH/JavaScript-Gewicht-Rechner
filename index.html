@@ -1,63 +1,56 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Javascript Projekt</title>
-    <link rel="shortcut icon" type="image/x-icon" href="indexicon.png" />
-    <script
-      language="javascript"
-      type="text/javascript"
-      src="index.js"
-    ></script>
-    <link rel="stylesheet" href="index.css" />
-  </head>
 
-  <body>
-    <p id="überschrift">Gewicht Rechner</p>
-    <div id="list">
-      <table id="myTable">
-        <tr>
-          <td id="td1">
-            <h4>Gramm:</h4>
-            <input
-              type="number"
-              placeholder="Gewicht.."
-              id="grammInput"
-              oninput="buttonClicked(this.value)"
-              onchange="buttonClicked(this.value)"
-            />
-          </td>
-        </tr>
-        <tr>
-          <td id="td2">
-            <h4>Kilogramm:</h4>
-            <div id="kgOutPut"></div>
-          </td>
-        </tr>
-        <tr>
-          <td id="td3">
-            <h4>Tonne:</h4>
-            <div id="tonneOutPut"></div>
-          </td>
-        </tr>
-        <tr>
-          <td id="td4">
-            <h4>MilliGramm:</h4>
-            <div id="mgOutPut"></div>
-          </td>
-        </tr>
-        <tr>
-          <td class="Pfund1">
-            <h4>Pfund:</h4>
-            <div id="pfundOutPut"></div>
-          </td>
-        </tr>
-        <tr>
-          <td class="Mikrogramm1">
-            <h4>Mikrogramm:</h4>
-            <div id="mikrogrammOutPut"></div>
-          </td>
-        </tr>
-      </table>
-    </div>
-  </body>
+<head>
+  <title>Javascript Projekt</title>
+  <link rel="shortcut icon" type="image/x-icon" href="indexicon.png" />
+  <script language="javascript" type="text/javascript" src="index.js"></script>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <p id="überschrift">Gewicht Rechner</p>
+  <div id="list">
+    <table id="myTable">
+      <tr>
+        <td id="td1">
+          <h4>Gramm:</h4>
+          <input type="number" placeholder="Gewicht.." id="grammInput" oninput="buttonClicked(this.value)"
+            onchange="buttonClicked(this.value)" />
+        </td>
+      </tr>
+      <tr>
+        <td id="td2">
+          <h4>Kilogramm:</h4>
+          <div id="kgOutPut"></div>
+        </td>
+      </tr>
+      <tr>
+        <td id="td3">
+          <h4>Tonne:</h4>
+          <div id="tonneOutPut"></div>
+        </td>
+      </tr>
+      <tr>
+        <td id="td4">
+          <h4>MilliGramm:</h4>
+          <div id="mgOutPut"></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="Pfund1">
+          <h4>Pfund:</h4>
+          <div id="pfundOutPut"></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="Mikrogramm1">
+          <h4>Mikrogramm:</h4>
+          <div id="mikrogrammOutPut"></div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+
 </html>
