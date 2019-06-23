@@ -43,27 +43,27 @@
     }
 
     #td1 {
-      background-color: #001f3f;
+      background-color: rgb (128,0,0);
     }
 
     #td2 {
-      background-color: #0074D9;
+      background-color: rgb (255,0,0);
     }
 
     #td3 {
-      background-color: #7FDBFF;
+      background-color: rgb (255,165,0);
     }
 
     #td4 {
-      background-color: #39CCCC;
+      background-color: rgb (128,128,0);
     }
 
     .Pfund1 {
-      background-color: #3D9970;
+      background-color: rgb (0,128,0);
     }
 
     .Mikrogramm1 {
-      background-color: #2ECC40;
+      background-color: rgb (128,0,128);
     }
 
     h4 {
